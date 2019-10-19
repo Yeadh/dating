@@ -135,11 +135,17 @@ $('.testimonial-active').slick({
 		{
 		breakpoint: 767,
 			settings: {
-				fade: true,
 				arrows: false,
 			}
 		},
 	]
+});
+
+
+// setting-dropdown
+$('#setting-dropdown').on('click', function () {
+	$('.filter-widget').slideToggle(500);
+	return false;
 });
 
 
